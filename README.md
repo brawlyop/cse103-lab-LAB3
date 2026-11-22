@@ -1,76 +1,58 @@
 
-# My First Git Repository
+# CSE103 Lab — LAB 3: GitHub Collaboration & API Interaction
 
-![Project Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![Version](https://img.shields.io/badge/Version-1.0-orange)
+![Last Commit](https://img.shields.io/github/last-commit/brawlyop/cse103-lab-LAB3)
 
-## About the Project
+![Language](https://img.shields.io/badge/language-Python-blue)
 
-This is my first Git and GitHub project created as part of the CSE103 Lab 3 assignment.
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-The project helps me understand basic Git commands, repository management, version control and Markdown documentation.
+## Overview
 
-## Features
+This repository contains lab work for **LAB 3** of the
+Computer Fundamentals & Career Pathways (CSE103) course at
+**K.R. Mangalam University**, Gurugram.
 
-- Basic Python programming
-- Git repository management
-- Version control using Git
-- Markdown documentation
+## Repository Structure
 
-## Technologies Used
+```text
+cse103-lab-LAB3/
++-- README.md            # Project documentation
++-- MARKDOWN_GUIDE.md    # Markdown syntax reference
++-- CHANGELOG.md         # Version history
++-- main.py              # Primary Python script
++-- .gitignore           # Files excluded from Git tracking
+```
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Programming |
-| Git | Version Control |
-| GitHub | Code Hosting |
-| Markdown | Documentation |
+## Skills Demonstrated
+
+| Skill                  | Status    |
+|------------------------|-----------|
+| Git initialisation     | Completed |
+| Meaningful commits     | Completed |
+| Remote push / pull     | Completed |
+| Markdown docs          | Completed |
+| API interaction        | Completed |
 
 ## How to Run
 
-1. Clone the repository.
-2. Open the project folder.
-3. Run the Python file.
-
 ```bash
 git clone https://github.com/brawlyop/cse103-lab-LAB3.git
+
 cd cse103-lab-LAB3
-python main.py
+
+python3 main.py
 ```
 
-## Example Code
+## Key Learning Outcomes
 
-```python
-def greet(name):
-    return f"Hello, {name}!"
+- Configured Git identity and initialised local repositories
+- Created atomic commits with Conventional Commit messages
+- Pushed and pulled changes with a GitHub remote
+- Authored structured Markdown documentation
 
-print(greet("Student"))
-```
+## References
 
-## Useful Links
-
-- [GitHub](https://github.com)
-- [Python Documentation](https://docs.python.org/3/)
-- [Git Documentation](https://git-scm.com/doc)
-
-## Author
-
-**Student:** Tanishk Yadav
-
-**Course:** B.Tech CSE
-
-## Project Status
-
-> This project is created for learning Git, GitHub and Markdown basics.
-
----
-
-*Thank you for visiting my repository!*# My First Repository
-
-## Description
-CSE103 lab repository — LAB 3.
-
-## GitHub Collaboration
-
-This repository demonstrates Git push and pull operations.
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [GitHub Skills](https://skills.github.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
